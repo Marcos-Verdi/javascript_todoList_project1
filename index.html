@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;600;700&family=Roboto&family=Source+Code+Pro:wght@200;400&family=Source+Sans+Pro:wght@200;600&family=Urbanist:wght@100;400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/49839b2ab4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>List App</title>
+    </head>
+    <body>
+        <div class="main-container">
+
+            <div class="list-container">
+                <p class="alert" id="alert"></p>
+                <h1>Grocery Bud</h1>
+                <form class="input-container">
+                    <input 
+                        type="text"
+                        class="input-box"
+                        placeholder="Add item..."
+                        id="input-box"/>
+                    <button type="submit" class="input-btn" id="submit-btn">Submit</button>
+                </form>
+                <div class="items-container" id="items-container">
+                    
+                </div>
+                <button class="clear-btn" id="clear-btn-list">Clear Items</button>
+            </div>
+
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

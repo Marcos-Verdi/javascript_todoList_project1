@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Urbanist;
+    margin: 0;
+}
+
+.main-container {
+    height: 100vh;
+    background-color:powderblue;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.list-container {
+    height: 70%;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert {
+    height: 2em;
+    width: 80%;
+    font-size: 0.75em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.alert.alert-danger {
+    background-color: crimson;
+    color: white;
+    padding: 0.5em 1em;
+    opacity: 0.3;
+}
+
+.alert.alert-success {
+    background-color: teal;
+    color: white;
+    padding: 0.5em 1em;
+    opacity: 0.3;
+}
+
+.list-container h1 {
+    letter-spacing: 0.1em;
+    opacity: 0.4;
+}
+
+.input-container {
+    display: flex;
+    margin: 1em 0 1em;
+}
+
+.input-box {
+    padding: 0.25em 0.5em;
+    font-family: Urbanist;
+    font-size: 0.8em;
+}
+
+.input-btn {
+    background-color: teal;
+    color: white;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    padding: 0.5em 1em;
+}
+
+.items-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-size: 0.75em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    padding: 0 10%;
+}
+
+.item.editing {
+    background-color: cornflowerblue;
+    opacity: 0.5;
+}
+
+.buttons-container button {
+    border: none;
+    background-color: transparent;
+}
+
+.button-completed {
+    color: green;
+    cursor: pointer;
+}
+
+.button-trash {
+    color: crimson;
+    cursor: pointer;
+}
+
+.clear-btn {
+    border: none;
+    background-color: transparent;
+    color:crimson;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    margin-top: 0.5em;
+}
